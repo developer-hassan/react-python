@@ -3,6 +3,7 @@ from schemas import *
 import models
 from typing import List
 from fastapi.middleware.cors import CORSMiddleware
+from seed import db_dependency
 
 app = FastAPI()
 origins = ["*"]
